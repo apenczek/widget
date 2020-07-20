@@ -5,7 +5,7 @@ server.port=8080
 # Endpoints
 
 GET
-http://localhost:8080//widgets 
+http://localhost:8080/widgets 
 
 @RequestBody Filtering
 
