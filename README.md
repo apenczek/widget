@@ -24,3 +24,7 @@ http://localhost:8080/widgets/{id}
  
 DELETE
 http://localhost:8080/widgets/{id}
+
+# Rate Limit
+
+com.penczek.widget.RateLimitFilter - parameter: max_request
