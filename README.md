@@ -2,7 +2,10 @@
 
 server.port=8080
 
-# Endpoints
+#swagger
+http://localhost:8080/swagger-ui.html#/widget-controller
+
+# endpoints
 
 GET
 http://localhost:8080/widgets 
@@ -25,6 +28,6 @@ http://localhost:8080/widgets/{id}
 DELETE
 http://localhost:8080/widgets/{id}
 
-# Rate Limit
+# rate limit
 
 com.penczek.widget.RateLimitFilter - parameter: max_request
