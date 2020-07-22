@@ -12,6 +12,8 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Optional;
+
+import com.penczek.filter.RateLimitFilter;
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;

@@ -2,6 +2,8 @@ package com.penczek.widget;
 
 import java.util.List;
 import javax.validation.Valid;
+
+import com.penczek.widget.filtering.Filtering;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

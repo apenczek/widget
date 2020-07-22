@@ -1,5 +1,7 @@
 package com.penczek.widget;
 
+import com.penczek.widget.filtering.Filtering;
+
 import java.util.List;
 import java.util.Optional;
 

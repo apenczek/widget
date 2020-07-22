@@ -4,6 +4,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
+
+import com.penczek.widget.filtering.Filtering;
+import com.penczek.widget.filtering.Paging;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.PageRequest;

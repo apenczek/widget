@@ -1,4 +1,4 @@
-package com.penczek.widget;
+package com.penczek.widget.filtering;
 
 import javax.validation.constraints.NotNull;
 import lombok.Builder;
@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 @Builder
-class WidgetFiltering {
+public class WidgetFiltering {
 
   @NotNull(message = "x cannot be missing or empty")
   private Integer x;

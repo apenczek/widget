@@ -1,11 +1,11 @@
-package com.penczek.widget;
+package com.penczek.widget.filtering;
 
 import lombok.Builder;
 import lombok.Data;
 
 @Data
 @Builder
-class Paging {
+public class Paging {
 
   private Integer page;
 

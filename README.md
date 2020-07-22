@@ -30,4 +30,4 @@ http://localhost:8080/widgets/{id}
 
 # rate limit
 
-com.penczek.widget.RateLimitFilter - parameter: max_request
+com.penczek.filter.RateLimitFilter - parameter: max_request

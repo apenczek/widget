@@ -2,6 +2,9 @@ package com.penczek.widget;
 
 import java.util.List;
 import java.util.Optional;
+
+import com.penczek.widget.filtering.Filtering;
+import com.penczek.widget.filtering.WidgetFiltering;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
