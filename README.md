@@ -1,4 +1,4 @@
-# Windget - Alexandre Penczek
+# Widget - Alexandre Penczek
 
 server.port=8080
 
